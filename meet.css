@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Meeting*/
+.meetings{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.9),transparent),url(./meeting\ cover1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    padding-left: 25%;
+    
+}
+
+.meetings .meetings-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.meetings-logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: -250px;
+    margin-top: -50px;
+}
+.meetings .meetings-nav ul{
+    flex: 1;
+    text-align: right;
+    margin-top: -60px;
+    margin-right: -60px;
+}
+.meetings .meetings-nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.meetings .meetings-nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.meetings .meetings-nav ul li a:hover{
+    color: #a58b52;
+}
+.meetings .meetings-box{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+}
+
+
+.meetings .meetings-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(./back.png);
+    -webkit-background-clip: text ;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+.meetings .meetings-box h3{
+    color: black;
+    text-align: center;
+}
+
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.meet-one{
+    background-color: #cccccc6d;
+    padding-bottom: 5%;
+    align-items: center;
+    text-align: center;
+    padding-left: 7%;
+}
+.meet-one .meet-one-det h1{
+    font-size: 40px;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.meet-one .meet-one-det p{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 2%;
+}
+
+
+
+.meet-two{
+    padding-top: 3%;
+    margin-left: -48px;
+}
+
+.meet-two h1{
+    color: #a70023;
+    font-size: 55px;
+
+    
+
+}
+
+.meet-two{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.meet-two p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.meet-sub-two{
+    padding-top: 5% ;
+    padding-bottom: 5%;
+
+}
+
+.meet-sub-two-det h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.meet-sub-two-det h2{
+    font-size: 45px;
+    text-align: center;
+    color: #a70023;
+    margin-top: -10px;
+    
+}
+
+.meet-sub-two-det p{
+    font-size: 22px;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 3%;
+    line-height: 35px;
+}
+
+
+.meet-body{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    display: flex;
+    
+
+}
+
+.meet-cover{
+    width: 800px;
+    height: 600px;
+    /*background: #000;*/
+    display: flex;
+    margin-top: 40px;
+    margin-right: 400px;
+
+}
+.meet-box{
+    width: 800px;
+    height: 655px;
+    margin: 10px;
+    box-shadow: -1px 0 10px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.meet-cover img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+
+}
+.meet-box h2{
+    font-size: 36px;
+    padding-top: 2%;
+    font-weight: 400;
+}
+.meet-box h1{
+    font-size: 45px;
+    color: #a70023;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.meet-box p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.meet-fin-sect{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: #cccccc6d;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.meet-section img{
+    max-width: 520px;
+    float: left;
+    box-shadow: -1px 0 10px ;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.meet-section{
+    margin: 150px auto;
+width: 70%;}
+
+.meet-det h1{
+    padding-bottom: 1%;
+    font-size: 44px;
+    color: black;
+}
+.meet-det h2{
+    margin-top: -40px;
+    font-size: 40px;
+    color: #a70023;
+}
+.meet-det p{
+    opacity: 70%;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 1%;
+}
+
+.meet-sub2 {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(-1.5,0,0,1),transparent),url(./meeting\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    padding-left: 25%;
+}
+
+.meet-centered{
+    margin-top: -50px;
+}
+.meet-sub2 .meet-centered h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.meet-sub2 .meet-centered h2{
+    color: #a58b52;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.meet-sub2 .meet-centered p{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+.meet-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*meeting footer*/
+.meet-footer{
+    
+    padding: 40px 0;
+    background-color:black;
+    height: 400px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(0,0,0,0.9)),url(meeting\ footer.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.meet-footer .meet-socia{
+    text-align: center;
+    color: #4b4c4d;
+    margin-top: 250px;
+
+}
+.meet-footer .meet-socia a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    color: white;
+}
+
+.meet-footer .meet-socia a:hover{
+    opacity: 3;
+    color: #b4975a;
+}
+.meet-footer ul{
+    margin-top: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+text-align: center;
+color: #ffffff;
+}
+
+.meet-footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+
+.meet-footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: underline;
+
+}
+
+.meet-footer ul li:hover{
+    opacity: 3;
+    color: #b4975a;
+}
+
+.meet-footer .copywrite{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}

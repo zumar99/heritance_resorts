@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*wedding*/
+.wed{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),transparent),url(./wedding\ bgm.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+}
+
+.wed .wed-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.wed-logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+.wed .wed-nav ul{
+    flex: 1;
+    text-align: right;
+    margin-top: -60px;
+    margin-right: -60px;
+}
+.wed .wed-nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+.wed .wed-nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.wed .wed-nav ul li a:hover{
+    color: #a58b52;
+}
+.wed .text-box{
+    color: white;
+    position: absolute;
+    bottom: 8%;
+}
+.wed .text-box p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.wed .text-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(./back.png);
+    -webkit-background-clip: text ;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.wed .text-box h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+/*wedding mid section*/
+.sub-one{
+    background-color: #cccccc6d;
+    padding-bottom: 5%;
+    align-items: center;
+    text-align: center;
+    padding-left: 7%;
+}
+.sub-one .sub-one-det h1{
+    font-size: 40px;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub-one .sub-one-det p{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 2%;
+}
+
+
+
+.sub-two{
+    padding-top: 3%;
+    margin-left: -48px;
+}
+
+.sub-two h1{
+    color: #a70023;
+    font-size: 55px;
+
+    
+
+}
+
+.sub-two{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sub-two p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.wed-sub-two{
+    padding-top: 5% ;
+    padding-bottom: 5%;
+
+}
+
+.wed-sub-two-det h1{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.wed-sub-two-det h2{
+    font-size: 45px;
+    text-align: center;
+    color: #a70023;
+    margin-top: -10px;
+    
+}
+
+.wed-sub-two-det p{
+    font-size: 22px;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 3%;
+    line-height: 35px;
+}
+
+
+.wedd-body{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    display: flex;
+    
+
+}
+
+.wedd-cover{
+    width: 800px;
+    height: 600px;
+    /*background: #000;*/
+    display: flex;
+    margin-top: 40px;
+    margin-right: 400px;
+
+}
+.wedd-box{
+    width: 800px;
+    height: 655px;
+    margin: 10px;
+    box-shadow: -1px 0 10px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.wedd-cover img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+
+}
+.wedd-box h2{
+    font-size: 36px;
+    padding-top: 2%;
+    font-weight: 400;
+}
+.wedd-box h1{
+    font-size: 45px;
+    color: #a70023;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.wedd-box p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wed-fin-sect{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: #cccccc6d;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.last-section img{
+    max-width: 520px;
+    float: left;
+    box-shadow: -1px 0 10px ;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+.last-section{
+    margin: 150px auto;
+width: 70%;}
+
+.last-det h1{
+    padding-bottom: 1%;
+    font-size: 44px;
+    color: black;
+}
+.last-det h2{
+    margin-top: -40px;
+    font-size: 40px;
+    color: #a70023;
+}
+.last-det p{
+    opacity: 70%;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 1%;
+}
+
+
+
+/*wedding footer*/
+.wedd-footer{
+    
+    padding: 40px 0;
+    background-color:black;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(wed\ footer.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+
+.wedd-footer .wed-socia{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+    margin-top: 300px;
+
+}
+.wedd-footer .wed-socia a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    color: white;
+}
+
+.wedd-footer .wed-socia a:hover{
+    opacity: 3;
+    color: #b4975a;
+}
+.wedd-footer ul{
+    margin-top: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+text-align: center;
+color: #ffffff;
+}
+
+.wedd-footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+
+.wedd-footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: underline;
+
+}
+
+.wedd-footer ul li:hover{
+    opacity: 3;
+    color: #b4975a;
+}
+
+.wedd-footer .copywrite{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
